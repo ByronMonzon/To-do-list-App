@@ -24,9 +24,11 @@ Aplicación web movil desarrollada en **React + Vite** que permite:
    cd To-do-list-App
 
 2. Instala las dependencias:
+   ```bash
    npm install
 
 ## Ejecución
 
 1. Inicia el servidor de desarrollo con:
+   ```bash
    npm run dev
