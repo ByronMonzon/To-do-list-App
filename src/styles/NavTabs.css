@@ -1,0 +1,38 @@
+.nav-tabs {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  border-top: 1px solid #ddd;
+  background-color: #f7f7f7;
+}
+
+.nav-tab {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: transparent;
+  font-size: 0.9rem;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.nav-tab:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.nav-tab.active {
+  border-top: 3px solid #18693a;
+  color: #ffffff;
+  background-color: #2ecc71;
+  border-radius: 0;
+}

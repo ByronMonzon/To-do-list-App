@@ -1,0 +1,55 @@
+.taskform-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.taskform-container h2 {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  color: #333;
+  text-align: center;
+}
+
+.taskform {
+  display: grid;
+  gap: 16px;
+}
+
+.taskform label {
+  font-weight: 600;
+  color: #444;
+}
+
+.taskform input,
+.taskform textarea,
+.taskform select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.taskform textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.taskform button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.taskform button:hover {
+  background-color: #0056b3;
+}
